@@ -103,8 +103,9 @@ Alternative links from mainteiners: https://storage.fcknrockn.net/v2RayTun.apk
 - **Latest Version**: The latest version of **v2raytun** is available on [Google Play](https://play.google.com/store/apps/details?id=com.v2raytun.android).
 - **Project Team**: Visit the project team’s website at [databridges.tech](https://databridges.tech).
 - **Support**: For questions, please use the [Telegram chat](https://t.me/v2raytun). Only the latest versions are provided here for convenience.
+- Official site: https://v2raytun.com/
 
 ### Contact
 For any questions or inquiries, please contact us via [Telegram](https://t.me/v2raytun).
 
-### GitHub RELEASE published by the [NeoNode.cc](https://neonode.cc) & [OpeNode.xyz](https://openode.xyz)
+### GitHub RELEASE published by the [GIG.ovh](https://gig.ovh) & [OpeNode.xyz](https://openode.xyz)
