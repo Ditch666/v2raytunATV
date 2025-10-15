@@ -1,7 +1,27 @@
 # v2raytun  - Android
 
 
-## Current Version: 3.12.46
+
+
+## Current Version: 5.18.60
+
+* Kernel updated to version 25.9.11
+* Added service restart when settings are changed
+* Improved interface
+* Improved TV interface
+
+⚠️ Please note: there is a version split between Google Play and the builds published here — the option to ignore SSL certificate verification is available **only** in the non–Google Play version.
+
+
+🚀 Available on [Google Play](https://play.google.com/store/apps/details?id=com.v2raytun.android)
+
+
+[v2RayTun_universal.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_universal.apk)
+Alternative links from mainteiners: https://storage.fcknrockn.net/v2RayTun.apk
+
+---
+
+## Previous Version: 3.12.46
 
 * Fixed connection restart when switching configuration
 * Fixed parsing of the `extra` value in `xhttp`
@@ -71,11 +91,10 @@
 [View on GitHub](https://github.com/DigneZzZ/v2raytun/releases/latest)
 
 ### Assets:
-- [v2RayTun_arm64-v8a.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_arm64-v8a.apk)
-- [v2RayTun_armeabi-v7a.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_armeabi-v7a.apk)
+
 - [v2RayTun_universal.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_universal.apk)
-- [v2RayTun_x86.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_x86.apk)
-- [v2RayTun_x86_64.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_x86_64.apk)
+
+- 
 
 ## Project Information
 - **Authors**: The creators of **v2raytun** are reachable via [Telegram](https://t.me/v2raytun).
