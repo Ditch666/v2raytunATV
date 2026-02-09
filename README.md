@@ -3,17 +3,25 @@
 
 
 
-## Current Version: 5.18.60
+## Current Version: 5.19.64
 
-* Kernel updated to version 25.9.11
-* Added service restart when settings are changed
-* Improved interface
-* Improved TV interface
+📱 Обновление Android 5.19.64 🇷🇺
 
-⚠️ Please note: there is a version split between Google Play and the builds published here — the option to ignore SSL certificate verification is available **only** in the non–Google Play version.
+- Исправлена ошибка с обновлением списков после пингования
+- Исправлена ошибка с редактированием пресетов
 
+⚠️Существует разделение версий для Google Play и публикуемых здесь - настройка игнорирования проверки SSL сертификатов доступна только в версии не из Google Play
 
-🚀 Available on [Google Play](https://play.google.com/store/apps/details?id=com.v2raytun.android)
+📱 Доступно в Google Play (https://play.google.com/store/apps/details?id=com.v2raytun.android)
+
+📱 Update for Android 5.19.64 🇺🇸
+
+- Fixed issue with updating lists after pinging
+- Fixed issue with editing presets
+
+⚠️There is a separation between the versions for Google Play and those published here - the setting to ignore SSL certificate verification is available only in the version not from Google Play
+
+📱 Available on Google Play (https://play.google.com/store/apps/details?id=com.v2raytun.android)
 
 
 [v2RayTun_universal.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_universal.apk)
