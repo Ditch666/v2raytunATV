@@ -3,9 +3,9 @@
 
 
 
-## Current Version: 5.19.64
+## Current Version: 5.21.68
 
-📱 Обновление Android 5.19.64 🇷🇺
+📱 Обновление Android 5.21.68 🇷🇺
 
 - Исправлена ошибка с обновлением списков после пингования
 - Исправлена ошибка с редактированием пресетов
@@ -29,72 +29,47 @@
 
 Alternative links from mainteiners: https://storage.fcknrockn.net/v2RayTun.apk
 
----
-
-## Previous Version: 3.12.46
-
-* Fixed connection restart when switching configuration
-* Fixed parsing of the `extra` value in `xhttp`
-* Fixed traffic display in subscription
-* Fixed subscription import via deeplink
-* Fixed reading of the `routing` header
-
 🚀 Available on [Google Play](https://play.google.com/store/apps/details?id=com.v2raytun.android)
 
 ---
+🥇 Обновление 🖥 Windows RELEASE 3.8.11 🇷🇺
 
-## Previous Version: 3.12.44
+- Добавлена поддержка импорта JSON конфигураций через QR-код со смартфона
+- Добавлена поддержка импорта из файла с изображением QR-кода
+- Добавлена поддержка заголовка network-filter (cм. network-filter (https://docs.v2raytun.com/overview/supported-headers#network-filter))
+- Добавлено больше информации о текущем подключении
+- Добавлен аргумент --console для вывода логов в консоль при запуске из консоли
+.\v2RayTun.exe --console
+- Добавлен диплинк для открытия пресета
+v2raytun://open-traffic-rules?id=
+- Замена Direct Service на Traffic Rules (https://t.me/v2raytun/3/279471)
+- Улучшение фильтрации некорректных URL
+- Исправлены ошибки логирования ядра xray, в частности вызывавшие утечки памяти
+- Исправлены ошибки в маршрутизации для ядра xray
+- Исправлены ошибки парсинга названий JSON конфигураций
+- Исправлены ошибки парсинга значений kcp, httpupgrade, xhttp
 
-* Added support for headers: `X-HWID`, `X-Device-OS`, `X-Ver-OS`, `X-Device-Model`, `X-App-Version` (see [Device Limit](https://docs.v2raytun.com/overview/device-limit))
-* Added support for `routing` header (see [Routing](https://docs.v2raytun.com/overview/supported-headers#routing))
-* Added support for `announce` header (see [Announce](https://docs.v2raytun.com/overview/supported-headers#announce))
-* Added support for `announce-url` header (see [Announce URL](https://docs.v2raytun.com/overview/supported-headers#announce-url))
-* Added support for `update-always` header (see [Update Always](https://docs.v2raytun.com/overview/supported-headers#update-always))
-* Added support for headers from body (using `#`)
-* Added support for JSON subscriptions
-* UI improvements
-* Fixed delay when adding subscription
-* Fixed layout stretching when pinging configs
-* Deeplinks for control available for testing:
+⚠️В случаях, когда у пользователя не работает режим туннеля, рекомендуется использовать стек gVisor (Настройки трафика)
 
-  * `v2raytun://control/start`
-  * `v2raytun://control/stop`
-  * `v2raytun://control/restart`
+🥇 Update for 🖥 Windows RELEASE 3.8.11 🇺🇸
 
-🚀 Available on [Google Play](https://play.google.com/store/apps/details?id=com.v2raytun.android)
+- Added support for importing JSON configurations via QR code from smartphone
+- Added support for importing from file containing QR code image
+- Added support for network-filter header (see network-filter (https://docs.v2raytun.com/overview/supported-headers#network-filter))
+- Added more information about current connection
+- Added --console argument to output app logs to console when running from console
+- Added deeplink v2raytun://open-traffic-rules?id= to open preset
+- Replaced Direct Service with Traffic Rules (https://t.me/v2raytun/3/279520)
+- Improved filtering of invalid URLs
+- Fixed logging errors in xray core, specifically those causing memory leaks
+- Fixed routing errors in xray core
+- Fixed parsing errors for JSON configuration names
+- Fixed parsing errors for kcp, httpupgrade, and xhttp values
 
-⭐️ Support the developers and buy Premium+ here: [https://t.me/v2raytun\_bot](https://t.me/v2raytun_bot)
+⚠️If tunnel mode isn't working, we recommend using gVisor stack (Traffic settings)
 
 
 ---
-
-## Previous Version: 3.9.40
-
-📲 **Android Update 3.9.40**  
-
-- **Bug fixes** (https://t.me/v2raytun/3/59797)  
-
-🚀 **Available on Google Play** (https://play.google.com/store/apps/details?id=com.v2raytun.android)  
-
----
-
-## Previous Version: 3.9.34  
-
-📲 **Android Update 3.9.34**  
-
-- **Core update** to version 24.12.31  
-- **Premium+ configuration import** (https://t.me/v2raytun_bot) from the smartphone app to the Android TV app  
-- **Support for Android 15**  
-- **Support for iOS deeplinks**  
-- **Support for Hysteria2**  
-- **Support for XHTTP**  
-- **Support for XHTTP Extra**  
-- **LAN traffic bypass settings** via VPN  
-- **Additional HTTP traffic proxying settings**, bypassing the device's network adapter  
-- **Various UI and performance improvements**  
-
-🚀 **Available on Google Play** (https://play.google.com/store/apps/details?id=com.v2raytun.android)
-
 
 
 ## Latest Release
@@ -103,6 +78,7 @@ Alternative links from mainteiners: https://storage.fcknrockn.net/v2RayTun.apk
 ### Assets:
 
 - [v2RayTun_universal.apk](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_universal.apk)
+- [v2RayTun Windows Setup](https://github.com/DigneZzZ/v2raytun/releases/latest/download/v2RayTun_Setup.exe)
 
 - 
 
