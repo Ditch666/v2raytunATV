@@ -1,0 +1,5 @@
+build/
+decompiled/
+tools/
+*.apk
+!android-tv/patches/**

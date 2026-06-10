@@ -1,3 +1,9 @@
+# v2raytunATV — Android TV
+
+> TV-only сборка на основе официального APK: см. [android-tv/README.md](android-tv/README.md)
+
+---
+
 # v2raytun  - Android
 
 
