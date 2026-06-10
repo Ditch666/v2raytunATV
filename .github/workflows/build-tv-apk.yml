@@ -1,0 +1,43 @@
+name: Build Android TV APK
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'android-tv/**'
+      - '.github/workflows/build-tv-apk.yml'
+  workflow_dispatch:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Build TV APK
+        run: |
+          chmod +x android-tv/scripts/build-tv-apk.sh
+          ./android-tv/scripts/build-tv-apk.sh
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2RayTun-tv-apk
+          path: build/android-tv/output/v2RayTun-tv.apk
+          retention-days: 90
+
+      - name: Attach APK to GitHub Release
+        if: github.event_name == 'release'
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/android-tv/output/v2RayTun-tv.apk

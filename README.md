@@ -1,6 +1,6 @@
 # v2raytunATV — Android TV
 
-> TV-only сборка на основе официального APK: см. [android-tv/README.md](android-tv/README.md)
+> **TV-only APK для Android TV:** [скачать из Releases](https://github.com/Ditch666/v2raytunATV/releases) или [собрать самому](android-tv/README.md#где-скачать-готовый-apk)
 
 ---
 

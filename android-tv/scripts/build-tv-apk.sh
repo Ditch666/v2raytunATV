@@ -18,8 +18,11 @@ if [[ ! -f "$SOURCE_APK" ]]; then
 fi
 
 if [[ ! -f "$TOOLS/apktool.jar" ]]; then
-  echo "Missing $TOOLS/apktool.jar — run setup from repository README."
-  exit 1
+  echo "Downloading apktool..."
+  mkdir -p "$TOOLS"
+  curl -fsSL \
+    "https://github.com/iBotPeaches/Apktool/releases/download/v2.11.0/apktool_2.11.0.jar" \
+    -o "$TOOLS/apktool.jar"
 fi
 
 echo "Decompiling APK..."
